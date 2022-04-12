@@ -1,0 +1,33 @@
+					RELATIONAL DATA 
+
+-database kelompok_tbd
+
+	- colection
+
+		-anggota-
+
+		    -db.anggota.insert({nama: "Rasky Yoga Adewindra", NIM: "1805551134"})
+
+		    -db.anggota.insert({nama: "Rasky Yoga Adewindra", 
+					NIM: "1805551134"}
+					{nama: "Ida Bagus Gede Bajing Kesawa", 
+					NIM: "2005551146"},
+					{nama: "I Gusti Agung bagus Indrajaya Sutedja", 
+					NIM: "2005551150"})
+		
+		    -db.anggota.insert({nama: "I Gusti Agung bagus Indrajaya Sutedja", 
+					NIM: "2005551150"})
+	- colection
+
+
+	it will show it -
+		
+		{ "_id" :ObjectId , "nama" : "Rasky Yoga Adewindra", 
+				    "NIM" : "1805551134"}
+
+		{ "_id" :ObjectId , "nama" : "Ida Bagus Gede Bajing Kesawa, 
+				    "NIM" : "2005551146"}
+
+		{ "_id" :ObjectId , "nama" : "I Gusti Agung bagus Indrajaya Sutedja, 
+				    "NIM" : "2005551150"}
+	>>>
